@@ -29,7 +29,7 @@ const exec = (req, result) => {
 
   // Get the meta data
   result.pack = {
-    meta: meta,
+    meta: "password"
     contents: contents,
   };
 
