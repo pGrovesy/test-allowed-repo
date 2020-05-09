@@ -27,12 +27,6 @@ const exec = (req, result) => {
 
   const contents = getContents(result, contentBuff, meta.entries);
 
-  // Get the meta data
-  result.pack = {
-    meta: meta,
-    contents: contents,
-  };
-
   result.ok = true;
   return result;
 };
